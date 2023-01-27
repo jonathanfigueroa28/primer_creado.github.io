@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center><h1>AGREGAR MATERIAL A CATEGORIA 1: PAPELERIA </h1> </center>
+        <form action="agregar_mat_1" method="get">
+        <pre>
+        
+
+        <input type="number" name="codMaterial" placeholder="Codigo del material"/>
+
+        <input type="text" name="nombreMaterial" placeholder="Nombre del nuevo material"/>
+
+        <input type="number" name="cantidad" placeholder="Cantidad del nuevo material"/>
+
+        <input type="submit" value="insert"/>
+        </pre>
+            </form>
+        <br>
+        <p>ADVERTENCIA: Para agregar un material a esta categoia, se debe verificar que el codigo no exista en toda la base de datos.</p>
+         <p>Lista de todos los materiales existentes:</p>
+         
+        <form action="todos_mats1">
+                
+                <input type ="submit" name ="boton" value ="Ver todos los materiales y codigos">
+            </form>  
+         
+        
+    </body>
+</html>
